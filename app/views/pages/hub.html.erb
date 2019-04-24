@@ -1,0 +1,591 @@
+<div class="row pt-5 py-5 layer-2">
+      <div class="container">
+  <div class="col-xl-8 col-lg-10">
+      <h1 class="display-5">Spotify Hub</h1>
+      <p class="lead mb-0">Feel part of something bigger, celebrate your peers successes, and help us create the culture you're proud to be part of!</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link btn active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Your Teams</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link btn" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">The Whole Company</a>
+    </li>
+  </ul>
+  <hr>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="row mb-4">
+          <div class="col-md-8 col-lg-8">
+            <div class="pr-lg-4">
+              <br>
+              <%= render 'layouts/filtershub' %>
+              <div class="card shadow border-0">
+                <div class="card-body py-5">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <span class="avatar avatar-lg m-1">
+                            <img src="/avatar.png" class="avatar avatar-lg m-1">
+                          </span>
+                    </div>
+                    <div class="col-md-10">
+                      <h4>1/2 Day Holiday</h4>
+                      <p class="text-muted small">Gifted by Team Manager · Just Now for <span class="badge badge-pill badge-secondary small">Employee Driver</span> <span class="badge badge-pill badge-secondary small">Team Value</span></p>
+                      <p class="">
+                        I've been getting a lot of feedback recently (from insights but also just the general vibe in the office) that people are feeling the stress of all the work and starting to feel spent. As a nod to this, I've haggled with the powers that be and have managed to get you all a half day off next friday (17th). Use it well - and very well deserved. Peace.
+                      </p>
+                      <br>
+                      <a href="/pages/holiday3" class="btn btn-light" role="button">View 1/2 Day Holiday</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <span class="float-right">
+                    <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add comment"><i class="fa fa-comments mr-3"></i>
+
+                     </a><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"><i class="fa fa-smile-o mr-3"></i>
+                  </a></span><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"></a>
+                
+                </div>
+              </div>
+            </div>
+            <div class="pr-lg-4">
+              <div class="card shadow border-0">
+                <div class="card-body py-5">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <span class="avatar rounded-circle">
+                            <img src="/avatar.png" class="avatar avatar-lg m-1">
+                          </span>
+                    </div>
+                    <div class="col-md-10">
+                      <h4>Smells Like Team Spirit</h4>
+                      <p class="text-muted small">Quick Poll From Team Manager · 2 Days Ago for <span class="badge badge-pill badge-secondary small">Team Value</span></p>
+                      <p class="">
+                        Hey everyone. It's well and truly spring time, which means it's time to get out of the winter lull and start looking less gloomy at work. I'm putting together a team night out for next week but need your feedback on what you'd like to do - vote below.
+                      </p>
+                      <br>
+                      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-light">
+                          <input type="radio" name="options" id="option1" autocomplete="off" checked> Just Drinks
+                        </label>
+                        <label class="btn btn-light">
+                          <input type="radio" name="options" id="option2" autocomplete="off"> Bowling
+                        </label>
+                        <label class="btn btn-light">
+                          <input type="radio" name="options" id="option3" autocomplete="off"> Nothing, I'm a scrooge
+                        </label>
+                      </div>
+                        <br>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <span class="float-right">
+                    <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add comment"><i class="fa fa-comments mr-3"></i>
+
+                     </a><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"><i class="fa fa-smile-o mr-3"></i>
+                  </a></span><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"></a>
+                </div>
+              </div>
+            </div>
+            
+
+          <div class="pr-lg-4">
+              <div class="card shadow border-0">
+                <div class="card-body py-5">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <span class="avatar rounded-circle">
+                            <img src="/avatar.png" class="avatar avatar-lg m-1">
+                          </span>
+                    </div>
+                    <div class="col-md-10">
+                      <h4>A huge shoutout</h4>
+                      <p class="text-muted small">Recognition From Team Manager · 5 Days Ago for <span class="badge badge-pill badge-secondary small">Team Value</span></p>
+                      <p class="">
+                        Right. I want a big round of applause. To everyone that was involved in the recent project that went live but especially @Adam, @Aiden and @Eamon... seriously good job. It's already getting amazing reviews. Proud of what you guys have achieved in such a short amount of time.
+                      </p>
+                        <br>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <span class="float-right">
+                    <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add comment"><i class="fa fa-comments mr-3"></i>
+
+                     </a><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"><i class="fa fa-smile-o mr-3"></i>
+                  </a></span><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"></a>
+                </div>
+              </div>
+            </div>
+         
+
+          <div class="pr-lg-4">
+              <div class="card shadow border-0">
+                <div class="card-body py-5">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <span class="avatar rounded-circle">
+                            <img src="/avatar.png" class="avatar avatar-lg m-1">
+                          </span>
+                    </div>
+                    <div class="col-md-10">
+                      <h4>50 Credits</h4>
+                      <p class="text-muted small">Gifted by Team Manager · 6 Days Ago for <span class="badge badge-pill badge-secondary small">Employee Driver</span> <span class="badge badge-pill badge-secondary small">Team Value</span></p>
+                      <p class="">
+                      <p class="">
+                        Disappointed to be getting more feedback that you feel like you're not learning as much as you'd like within our team. We do try. To ramp things up and support as best as we can for now, I've given you all 50 credits to use in the L&D collection. There are some really awesome courses I know you'll like - go spend it on whatever you think will help.
+                      </p>
+                        <br>
+                        <a href="/pages/yoga" class="btn btn-light" role="button">View 50 Credits</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <span class="float-right">
+                    <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add comment"><i class="fa fa-comments mr-3"></i>
+
+                     </a><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"><i class="fa fa-smile-o mr-3"></i>
+                  </a></span><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"></a>
+                </div>
+              </div>
+            </div>
+
+
+          <div class="pr-lg-4">
+              <div class="card shadow border-0">
+                <div class="card-body py-5">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <span class="avatar rounded-circle">
+                            <img src="/avatar.png" class="avatar avatar-lg m-1">
+                          </span>
+                    </div>
+                    <div class="col-md-10">
+                      <h4>Team Awards Time</h4>
+                      <p class="text-muted small">Nomination Created By Team Manager · 8 days ago</p>
+                      <p class="">
+                        Ok, we're at the end of another quarter, which can only mean one thing. Who should win the team award. I've got an awesome reward lined up for the winner, but I need your nominations. It closes this Friday
+                      </p>
+                      <form>
+                                  <div class="form-group">
+                                    <label for="exampleFormControlInput1">Who would you like to nominate?</label>
+                                    <input type="input" class="form-control" id="exampleFormControlInput1" placeholder="start typing the name">
+                                  </div>
+                                 </form>
+                        <a href="" class="btn btn-light" role="button">Next Step</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <span class="float-right">
+                    <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add comment"><i class="fa fa-comments mr-3"></i>
+
+                     </a><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"><i class="fa fa-smile-o mr-3"></i>
+                  </a></span><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 col-lg-4">
+          
+              <div class="sticky-top">
+            <div class="card-body">
+                <h4 class="text-default">Have your say</h4>
+                <p class="mt-3">Send anonymous feedback to help make your team a better place to work</p>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contact-box-modal">
+                Send feedback
+              </button>
+            </div>
+            <hr>
+            <div class="card-body">
+                <h4 class="text-default">Recognise Someone</h4>
+                <p class="description">Time to make a colleague's day!</p>
+
+                      <ul class="avatars">
+                    <li>
+                      <img src="/avatar.png" alt="Avatar" class="avatar">
+                    </li>
+                    <li>
+                      <img src="/avatar.png" alt="Avatar" class="avatar">
+                    </li>
+                    <li>
+                      <img src="/avatar.png" alt="Avatar" class="avatar">
+                    </li>
+                    <li>
+                      <img src="/avatar.png" alt="Avatar" class="avatar">
+                    </li>
+                  </ul>
+                  <br>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sign-in-modal">
+                    Recognise Someone
+                  </button>
+            </div>
+            <hr>
+
+            
+           
+            
+
+              
+
+
+
+            
+          </div>
+
+
+
+
+          </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      
+      <div class="row mb-4">
+          <div class="col-md-8 col-lg-8">
+            
+            <div class="pr-lg-4">
+              <br>
+              <%= render 'layouts/filtershub2' %>
+              <div class="card shadow border-0">
+                <div class="card-body py-5">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <span class="avatar rounded-circle">
+                            <img src="/avatar.png" class="avatar avatar-lg m-1">
+                          </span>
+                    </div>
+                    <div class="col-md-10">
+                      <h4>What an event!</h4>
+                      <p class="text-muted small">Recognition From HR Manager · Just now for <span class="badge badge-pill badge-secondary small">Company Value</span></p>
+                      <p class="">
+                        A massive shout out to @Maddie for the marketing event last week. The biggest turn out we've ever had and a whole bunch of new relationships have been formed. Seriously cool!
+                      </p>
+                        <br>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <span class="float-right">
+                    <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add comment"><i class="fa fa-comments mr-3"></i>
+
+                     </a><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"><i class="fa fa-smile-o mr-3"></i>
+                  </a></span><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"></a>
+                </div>
+              </div>
+              <div class="card shadow border-0">
+                <div class="card-body py-5">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <span class="avatar avatar-lg m-1">
+                            <img src="/avatar.png" class="avatar avatar-lg m-1">
+                          </span>
+                    </div>
+                    <div class="col-md-10">
+                      <h4>Medical</h4>
+                      <p class="text-muted small">Gifted by HR Manager · 2 days ago for <span class="badge badge-pill badge-secondary small">Employee Driver</span> <span class="badge badge-pill badge-secondary small">Company Value</span></p>
+                      <p class="">
+                      <p class="">
+                        We know we speak a lot about health and wellbeing and putting you guys first. Well in light of that, we're pleased to announce that everyone now has access to Perkbox medical tier 1. It'll give you all instant access to a GP if you ever need it. We'd love your feedback on how it goes.
+                      </p>
+                      <br>
+                        <a href="/pages/medical" class="btn btn-light" role="button">View Medical</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <span class="float-right">
+                    <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add comment"><i class="fa fa-comments mr-3"></i>
+
+                     </a><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"><i class="fa fa-smile-o mr-3"></i>
+                  </a></span><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"></a>
+                
+                </div>
+              </div>
+            </div>
+            <div class="pr-lg-4">
+              <div class="card shadow border-0">
+                <div class="card-body py-5">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <span class="avatar rounded-circle">
+                            <img src="/avatar.png" class="avatar avatar-lg m-1">
+                          </span>
+                    </div>
+                    <div class="col-md-10">
+                      <h4>Our communication sucks!</h4>
+                      <p class="text-muted small">Action From HR Manager · 6 days ago for <span class="badge badge-pill badge-secondary small">Employee Driver</span> <span class="badge badge-pill badge-secondary small">Company Value</span></p>
+                      <p class="">
+                        We're growing and we're feeling the pain - we feel it. You guys have been very vocal with feedback about how things are broken between offices and we're working on it. As the first action step, we're going to try rolling out Slack across the offices to see if it helps. We'll keep you posted.
+                      </p>
+                        <br>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <span class="float-right">
+                    <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add comment"><i class="fa fa-comments mr-3"></i>
+
+                     </a><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"><i class="fa fa-smile-o mr-3"></i>
+                  </a></span><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"></a>
+                </div>
+              </div>
+            </div>
+            
+
+          <div class="pr-lg-4">
+              <div class="card shadow border-0">
+                <div class="card-body py-5">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <span class="avatar rounded-circle">
+                            <img src="/avatar.png" class="avatar avatar-lg m-1">
+                          </span>
+                    </div>
+                    <div class="col-md-10">
+                      <h4>More access to C-level</h4>
+                      <p class="text-muted small">Ask C-Level Created By HR Manager · 8 days ago for <span class="badge badge-pill badge-secondary small">Company Value</span></p>
+                      <p class="">
+                        Hey one and all. We've been getting more and more feedback that you all feel you're not clear on the company strategy - and that you don't feel like you get enough time to pick the brains of our C-level. So now's your chance. Submit your questions below and next Friday, we'll be hosting an all hands where you'll get to hear the answers. Questions need to be submitted by next Wednesday please.
+                      </p>
+                      <form>
+                                  <div class="form-group">
+                                    <label for="exampleFormControlInput1">What's your question?</label>
+                                    <input type="input" class="form-control" id="exampleFormControlInput1" placeholder="Let us know your question">
+                                  </div>
+                                 </form>
+                                 <a href="" class="btn btn-light" role="button">Submit Question</a>
+                        <br>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <span class="float-right">
+                    <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Add comment"><i class="fa fa-comments mr-3"></i>
+
+                     </a><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"><i class="fa fa-smile-o mr-3"></i>
+                  </a></span><a data-toggle="tooltip" data-placement="top" title="" data-original-title="Emoji"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 col-lg-4">
+          
+              <div class="sticky-top">
+            <div class="card-body">
+                <h4 class="text-default">Have your say</h4>
+                <p class="mt-3">Send anonymous feedback to help make your company a better place to work</p>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contact-box-modal">
+                Send feedback
+              </button>
+            </div>
+            <hr>
+            <div class="card-body">
+                <h4 class="text-default">Recognise Someone</h4>
+                <p class="description">Time to make a colleague's day!</p>
+
+                      <ul class="avatars">
+                    <li>
+                      <img src="/avatar.png" alt="Avatar" class="avatar">
+                    </li>
+                    <li>
+                      <img src="/avatar.png" alt="Avatar" class="avatar">
+                    </li>
+                    <li>
+                      <img src="/avatar.png" alt="Avatar" class="avatar">
+                    </li>
+                    <li>
+                      <img src="/avatar.png" alt="Avatar" class="avatar">
+                    </li>
+                  </ul>
+                  <br>
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sign-in-modal">
+                    Recognise Someone
+                  </button>
+            </div>
+            <hr>
+
+             
+           
+            
+
+              
+
+
+
+            
+          </div>
+
+
+
+
+          </div>
+
+
+    </div>
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+  </div>
+</div>
+
+ <div class="modal fade" id="sign-in-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <svg class="icon bg-dark" width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M16.2426 6.34311L6.34309 16.2426C5.95257 16.6331 5.95257 17.2663 6.34309 17.6568C6.73362 18.0473 7.36678 18.0473 7.75731 17.6568L17.6568 7.75732C18.0473 7.36679 18.0473 6.73363 17.6568 6.34311C17.2663 5.95258 16.6331 5.95258 16.2426 6.34311Z" fill="#212529"></path>
+                          <path d="M17.6568 16.2426L7.75734 6.34309C7.36681 5.95257 6.73365 5.95257 6.34313 6.34309C5.9526 6.73362 5.9526 7.36678 6.34313 7.75731L16.2426 17.6568C16.6331 18.0473 17.2663 18.0473 17.6568 17.6568C18.0474 17.2663 18.0474 16.6331 17.6568 16.2426Z" fill="#212529"></path>
+                        </svg>
+
+                      </button>
+                      <div class="m-xl-4 m-3">
+                        <div class="mb-4">
+                          <div class="content-container">
+                            <div id="content1">
+                                <p class="text-muted text-small">Step 1 of 3</p>
+                                <h4 class="h3 mb-2">Recognise Someone</h4>
+                                <form>
+                                  <div class="form-group">
+                                    <label for="exampleFormControlInput1">Who would you like to recognise?</label>
+                                    <input type="input" class="form-control" id="exampleFormControlInput1" placeholder="start typing the name">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">What for?</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                                </form>
+                              <a id="link2" class="btn btn-primary" href="#">Next</a>
+                            </div>
+                            <div id="content2">
+                                <p class="text-muted text-small">Step 2 of 3</p>
+                                <h4 class="h3 mb-2">Company value and gift</h4>
+                          
+                
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1">What company value are they embodying?</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>Company value 1</option>
+                                      <option>Company value 2</option>
+                                      <option>Company value 3</option>
+                                      <option>Company value 4</option>
+                                      <option>Company value 5</option>
+                                    </select>
+                                  </div>
+
+                                  <div class="form-check">
+                                  <input class="form-check-input" name="cod" value="1" type="checkbox" value="" id="defaultCheck1">
+                                  <label class="form-check-label" for="defaultCheck1">
+                                    Would you like to make it extra special by adding a gift?
+                                  </label>
+
+                                  <select class="form-control" id='select'>
+                                      <option>Send one of your own Spotify gifts</option>
+                                      <option>Purchase a gift from the collections</option>
+                                      <option>Create a unique gift from scratch</option>
+                                    </select>
+
+                                  
+                                </div>
+                                <br>
+                                  
+                                  
+                                  <a id="link3" class="btn btn-primary" href="#">Next</a>
+                            </div>
+                            <div id="content3">
+                                <p class="text-muted text-small">Step 3 of 3</p>
+                                <h4 class="h3 mb-2">Public or private</h4>
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1">How would you like to recognise them?</label>
+
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>Just send recognition privately to them</option>
+                                      <option>Publish to the Spotify Hub for whole team to see</option>
+                                      <option>Publish to the Spotify Hub for whole company to see</option>
+                                    </select>
+                                  </div>
+                                  <p class="text-muted small">Don't worry, we won't display any attached gifts if you publish to the Spotify Hub, only the message.</p>
+                                  <a class="btn btn-primary" href="/pages/hub">Send recognition</a>
+                            </div>
+                        </div>
+
+                          
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+
+<div class="m-1">
+  
+              <div class="modal fade" id="contact-box-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <svg class="icon bg-dark" width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M16.2426 6.34311L6.34309 16.2426C5.95257 16.6331 5.95257 17.2663 6.34309 17.6568C6.73362 18.0473 7.36678 18.0473 7.75731 17.6568L17.6568 7.75732C18.0473 7.36679 18.0473 6.73363 17.6568 6.34311C17.2663 5.95258 16.6331 5.95258 16.2426 6.34311Z" fill="#212529"></path>
+                          <path d="M17.6568 16.2426L7.75734 6.34309C7.36681 5.95257 6.73365 5.95257 6.34313 6.34309C5.9526 6.73362 5.9526 7.36678 6.34313 7.75731L16.2426 17.6568C16.6331 18.0473 17.2663 18.0473 17.6568 17.6568C18.0474 17.2663 18.0474 16.6331 17.6568 16.2426Z" fill="#212529"></path>
+                        </svg>
+
+                      </button>
+                      <div class="m-3">
+                        <div class="my-3">
+
+                            <div id = "div1" style="display:block">
+                              <h4 class="h3 mb-2">Have your say</h4>
+                              <p>
+                                We'd love your feedback so we know what's working and what's not, so we know how to improve.
+                              </p>
+                              <button class="btn btn-primary" onclick="replace();return false"/>Let's go</button>
+                            </div>
+
+                            <div id = "div2" style="display:none">
+
+                              <h4 class="h3 mb-2">How would you like to give feedback?</h4>
+                              <hr>
+                              <div class="row">
+                                <div class="col-lg-12 col-xl-12">
+                                  <div class="row">
+                                        <div class="ml-3">
+                                          <h5>
+                                            Open Feedback
+                                          </h5>
+                                          <div class="avatar-author d-block">
+                                            <p>Give us feedback on whatever area you'd like.</p>
+                                            <a href="/pages/hub" class="btn btn-primary">Open feedback</a>
+                                          </div>
+                                        </div>
+                                  </div>
+                                  <hr>
+                                  <div class="row">
+                                        <div class="ml-3">
+                                          <h5>
+                                            Short survey
+                                          </h5>
+                                          <div class="avatar-author d-block">
+                                            <p>Answer just 5 quick questions.</p>
+                                            <a href="/pages/hub" class="btn btn-primary">Start survey</a>
+                                          </div>
+                                          <br>
+                                        </div>
+
+                                  </div>
+
+                            </div> 
+                          </div>
+                        </div>

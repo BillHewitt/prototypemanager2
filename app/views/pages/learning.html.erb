@@ -1,0 +1,99 @@
+
+<div class="row pt-5 py-5 layer-2">
+      <div class="container">
+
+          <div class="container">
+  <div class="row">
+    <div class="col">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="/pages/marketplace">The Collections</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Learning & Development</li>
+        </ol>
+      </nav>
+      <br>
+    </div>
+  </div>
+</div>
+
+
+  <div class="col-xl-8 col-lg-10">
+      <h1 class="display-5">Learning & Development</h1>
+      <p class="lead mb-0">From courses to books and beyond. Keep learning and growing so you can realise your potential.</p>
+    </div>
+  </div>
+</div>
+
+<section class="pt-0">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col col-md-12">
+        <ul data-isotope-filters data-isotope-id="projects" class="nav mb-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link btn active" data-filter="*">See All</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link btn" data-filter="Branding">Books</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link btn" data-filter="Digital">Online Courses</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link btn" data-filter="">Events</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link btn" data-filter="">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link btn" data-filter="">Tuition</a>
+          </li>
+        </ul>
+        <hr>
+      </div>
+    </div>
+
+    <%= render 'layouts/filterslearning' %>
+
+
+    <div class="row" data-isotope-collection data-isotope-id="projects">
+      <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Branding">
+        <a href="/pages/amazon">
+          <img src="/placeholder.jpg" alt="Volkswagen Australia" class="rounded mb-3">
+          <h5 class="mb-0">Amazon</h5>
+          <div class="text-small text-muted">From <i class="fa fa-diamond" aria-hidden="true"></i> 10 Credits/£</div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Branding">
+        <a href="/pages/audible">
+          <img src="/placeholder.jpg" alt="Oculus Go" class="rounded mb-3">
+          <h5 class="mb-0">Audible.com</h5>
+          <div class="text-small text-muted">From <i class="fa fa-diamond" aria-hidden="true"></i> 10 Credits/£</div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Digital">
+        <a href="/pages/udemy">
+          <img src="/placeholder.jpg" alt="Leap iOS" class="rounded mb-3">
+          <h5 class="mb-0">Udemy</h5>
+          <div class="text-small text-muted">From <i class="fa fa-diamond" aria-hidden="true"></i> 10 Credits/£</div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Digital">
+        <a href="/pages/skillshare">
+          <img src="/placeholder.jpg" alt="Leap iOS" class="rounded mb-3">
+          <h5 class="mb-0">Skillshare.com</h5>
+          <div class="text-small text-muted">From <i class="fa fa-diamond" aria-hidden="true"></i> 10 Credits/£</div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Digital">
+        <a href="/pages/lynda">
+          <img src="/placeholder.jpg" alt="Leap iOS" class="rounded mb-3">
+          <h5 class="mb-0">Lynda.com</h5>
+          <div class="text-small text-muted">From <i class="fa fa-diamond" aria-hidden="true"></i> 10 Credits/£</div>
+        </a>
+      </div>
+    </div>
+    
+  </div>
+</section>

@@ -1,0 +1,74 @@
+<div class="row">
+      <div class="col-xl-10 col-lg-9 px-xl-6 px-lg-4 px-md-3 py-md-5">
+        <div class="card card-body card-lg shadow-3d rounded-sm mb-4 mb-md-5">
+          <h1>Customising CSS</h1>
+          <div class="lead">
+            <p>A guide to customising CSS in Leap</p>
+          </div>
+        </div>
+
+        <article id="scss-method" class="mb-4 mb-md-6">
+          <h3>
+            </h3>
+<p>SCSS Method - <code>user.scss</code> (recommended)</p>
+          
+          <div>
+            <p>The most streamlined way to make edits and additions to the theme CSS is to use the provided <code>user-variables.scss</code> and <code>user.scss</code> files located in the <code>scss</code> folder.</p>
+            <p>When used in conjunction with the provided dev tools, your custom CSS is included in <code>theme.css</code> and overrides the default theme style.</p>
+            <p>This is the preferred method as your changes are kept separate from the core theme files. By separating your CSS edits into their own files, you can easily overwrite all of the default theme SCSS files when you update the theme.</p>
+            <p>To make broader changes to the design of the theme, such as changing the colour scheme or font sizes, use <code>scss/user-variables.scss</code>. Any variable from <code>scss/bootstrap/_variables.scss</code> or <code>scss/custom/variables.scss</code> can
+              be overridden with your own value.</p>
+            <p>If you need to add CSS for additional components or other needs, simply edit <code>scss/user.scss</code> and add any SCSS or CSS you require.</p>
+
+          </div>
+        </article>
+
+        <article id="optional-scss" class="mb-4 mb-md-6">
+          <h3>
+            </h3>
+<p>Omitting optional SCSS components</p>
+          
+          <div>
+            <p>Listed under <em>Optional Components</em> in <code>scss/custom/components.scss</code> are all the non-essential parts of Leap's CSS. If your project does not need CSS for one of these components, such as <em>progress bars</em>, simply delete
+              or comment out the line (by adding // at the start of the line) and it will not be included in the compiled CSS.</p>
+            <p>Some optional components such as <em>Prism</em> require additional CSS for syntax highlighting. The required CSS is included via the <code>import</code> statement in <code>components.scss</code>. By including the <em>Prism</em> component, the required
+              CSS is imported from <code>components/plugins/prism.css</code> file.</p>
+            <p>By removing as many unused components as possible, you can streamline your CSS to optimise file size of <code>theme.css</code>. Of course, the components can always be added back in if the needs of your project change.</p>
+
+          </div>
+        </article>
+
+        <article id="css-method" class="mb-4 mb-md-6">
+          <h3>
+            </h3>
+<p>CSS Method - <code>custom.css</code>
+            </p>
+          
+          <div>
+            <p>If you prefer to work with Leap as a static source without the aid of Gulp and Sass, you will need to add custom CSS through a separate CSS file.</p>
+            <p>We have provided a blank <code>custom.css</code> file in the <code>assets/css</code> folder. To make your custom CSS active, you will need to add the following line after <code>theme.css</code> is referenced in the <code>&lt;head&gt;</code> of each
+              page:</p>
+            <pre><code class="language-html">&lt;link href="assets/css/custom.css" rel="stylesheet" type="text/css" media="all" /&gt;</code></pre>
+
+          </div>
+        </article>
+
+      </div>
+      <div class="col-xl-2 col-lg-3 d-none d-lg-block py-md-5 docs-sidebar">
+        <ul class="nav flex-column">
+
+          <li class="nav-item">
+            <a href="#scss-method" class="nav-link text-small" data-smooth-scroll>SCSS Method</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#optional-scss" class="nav-link text-small" data-smooth-scroll>Optional SCSS</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#css-method" class="nav-link text-small" data-smooth-scroll>CSS Method</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>

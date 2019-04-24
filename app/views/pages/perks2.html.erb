@@ -1,0 +1,203 @@
+
+<div class="row pt-5 py-5 layer-2">
+      <div class="container">
+
+
+
+
+  <div class="col-xl-8 col-lg-10">
+      <h1 class="display-5">My Perks</h1>
+      <p class="lead mb-0">Here are the perks you've got access to help make your experience at Company Name as good as it can be.</p>
+    </div>
+  </div>
+</div>
+
+<section class="pt-0">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col col-md-12">
+        <ul data-isotope-filters data-isotope-id="projects" class="nav mb-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link btn active" data-filter="*">See All</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link btn" data-filter="Gifted">Gifted</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link btn" data-filter="Incentive">Incentivised</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link btn" data-filter="Rewarded">Rewarded</i></a>
+          </li>
+        </ul>
+        <hr>
+      </div>
+    </div>
+
+    <%= render 'layouts/filterslearning2' %>
+
+
+    <div class="row" data-isotope-collection data-isotope-id="projects">
+      <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Gifted">
+        <a href="/pages/holiday2">
+          <img src="/placeholder.jpg" alt="Go Commerce" class="rounded mb-3">
+          <h5 class="mb-0">2 Days Holiday</h5>
+          <div class="text-small text-muted">Gifted by your company</div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Gifted">
+        <a href="/pages/medical">
+          <img src="/placeholder.jpg" alt="Tribe" class="rounded mb-3">
+          <h5 class="mb-0">Medical Care</h5>
+          <div class="text-small text-muted">Gifted by your company</div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Gifted">
+        <a href="/pages/dental">
+          <img src="/placeholder.jpg" alt="Beker EV" class="rounded mb-3">
+          <h5 class="mb-0">100 Credits</h5>
+          <div class="text-small text-muted">Gifted by your company</div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Gifted">
+        <a href="/pages/beer">
+          <img src="/placeholder.jpg" alt="Beker EV" class="rounded mb-3">
+          <h5 class="mb-0">Beer Friday</h5>
+          <div class="text-small text-muted">Gifted by your company</div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Rewarded">
+        <a href="/pages/asos">
+          <img src="/placeholder.jpg" alt="Volkswagen Australia" class="rounded mb-3">
+          <h5 class="mb-0">Asos Giftcard</h5>
+          <div class="text-small text-muted"><i class="fa fa-trophy" aria-hidden="true"></i> Rewarded by your manager</div>
+        </a>
+      </div>
+    <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Rewarded">
+        <a href="/pages/yoga">
+          <img src="/placeholder.jpg" alt="Leap iOS" class="rounded mb-3">
+          <h5 class="mb-0">50 Credits</h5>
+          <div class="text-small text-muted"><i class="fa fa-trophy" aria-hidden="true"></i> Rewarded by your manager</div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Gifted">
+        <a href="/pages/coffee">
+          <img src="/placeholder.jpg" alt="Leap iOS" class="rounded mb-3">
+          <h5 class="mb-0"><strike>Free Coffee</strike> <a href="#" class="m-1 btn-sm btn-primary" data-toggle="modal" data-target="#sign-in-modal">Gift To Peer</a></h5>
+          <div class="text-small text-muted">Perkbox Gift available again in 4 days</div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Gifted">
+        <a href="/pages/mental">
+          <img src="/placeholder.jpg" alt="Leap iOS" class="rounded mb-3">
+          <h5 class="mb-0">Mental Health</h5>
+          <div class="text-small text-muted">Gifted by Perkbox</div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Gifted">
+        <a href="/pages/councelling">
+          <img src="/placeholder.jpg" alt="Leap iOS" class="rounded mb-3">
+          <h5 class="mb-0">Councelling Online</h5>
+          <div class="text-small text-muted">Gifted by Perkbox</div>
+        </a>
+      </div>
+    <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Gifted">
+        <a href="/pages/head">
+          <img src="/placeholder.jpg" alt="Volkswagen Australia" class="rounded mb-3">
+          <h5 class="mb-0">Headspace</h5>
+          <div class="text-small text-muted">Gifted by your company</div>
+        </a>
+      </div>
+     
+    <div class="col-sm-6 col-lg-3 mb-4" data-isotope-item data-category="Incentive">
+        <a href="/pages/peer">
+          <img src="/placeholder.jpg" alt="Tribe" class="rounded mb-3">
+          <h5 class="mb-0">Team Lunch </h5>
+          <div class="text-small text-muted"><i class="fa fa-lock" aria-hidden="true"></i> Incentive from your manager</div>
+        </a>
+      </div>
+      
+    </div>
+    
+  </div>
+</section>
+
+
+
+<br>
+
+<div class="modal fade" id="sign-in-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <svg class="icon bg-dark" width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M16.2426 6.34311L6.34309 16.2426C5.95257 16.6331 5.95257 17.2663 6.34309 17.6568C6.73362 18.0473 7.36678 18.0473 7.75731 17.6568L17.6568 7.75732C18.0473 7.36679 18.0473 6.73363 17.6568 6.34311C17.2663 5.95258 16.6331 5.95258 16.2426 6.34311Z" fill="#212529"></path>
+                          <path d="M17.6568 16.2426L7.75734 6.34309C7.36681 5.95257 6.73365 5.95257 6.34313 6.34309C5.9526 6.73362 5.9526 7.36678 6.34313 7.75731L16.2426 17.6568C16.6331 18.0473 17.2663 18.0473 17.6568 17.6568C18.0474 17.2663 18.0474 16.6331 17.6568 16.2426Z" fill="#212529"></path>
+                        </svg>
+
+                      </button>
+                      <div class="m-xl-4 m-3">
+                        <div class="mb-4">
+                          <div class="content-container">
+                            <div id="content1">
+                                <p class="text-muted text-small">Step 1 of 2</p>
+                                <h4 class="h3 mb-2">Gift Coffee</h4>
+                                <form>
+                                  <div class="form-group">
+                                    <label for="exampleFormControlInput1">Who would you like to gift it to?</label>
+                                    <input type="input" class="form-control" id="exampleFormControlInput1" placeholder="start typing the name">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">What for?</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                                </form>
+                              <a id="link2" class="btn btn-primary" href="#">Next</a>
+                            </div>
+                            <div id="content2">
+                                <p class="text-muted text-small">Step 2 of 2</p>
+                                <h4 class="h3 mb-2">Public or private</h4>
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1">How would you like send it to them?</label>
+
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>Just send a message privately to them</option>
+                                      <option>Publish to the hub for whole team to see</option>
+                                      <option>Publish to the hub for whole company to see</option>
+                                    </select>
+                                  </div>
+                                  <p class="text-muted small">Don't worry, we won't display any attached gifts if you publish to the hub, only the message.</p>
+                                  <a class="btn btn-primary" href="/pages/perks">Send recognition</a>
+
+                                  
+                                </div>
+                                <br>
+                                  
+                            </div>
+                            <div id="content3">
+                                <p class="text-muted text-small">Step 3 of 3</p>
+                                <h4 class="h3 mb-2">Public or private</h4>
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1">How would you like send it to them?</label>
+
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>Just send a message privately to them</option>
+                                      <option>Publish to the hub for whole team to see</option>
+                                      <option>Publish to the hub for whole company to see</option>
+                                    </select>
+                                  </div>
+                                  <p class="text-muted small">Don't worry, we won't display any attached gifts if you publish to the hub, only the message.</p>
+                                  <a class="btn btn-primary" href="/pages/home">Gift Coffee</a>
+                            </div>
+                        </div>
+
+                          
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+

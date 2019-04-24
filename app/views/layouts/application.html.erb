@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prototype4</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+    <% if current_page?(root_path) or current_page?(pages_signup1_path) or current_page?(pages_splashemployee_path) or current_page?(pages_signup2_path) or current_page?(pages_signup3_path) or current_page?(pages_signup4_path) or current_page?(pages_splash_path) or current_page?(pages_homeperks_path) or current_page?(pages_profileperks_path) or current_page?(pages_hubperks_path) or current_page?(pages_perksperks_path) or current_page?(pages_financialperks_path) or current_page?(pages_premiumperks_path) or current_page?(pages_learningperks_path) or current_page?(pages_companyperks_path) or current_page?(pages_creditperks_path) or current_page?(pages_marketplaceperks_path) or current_page?(pages_purchasesperks_path) or current_page?(pages_notificationsperks_path) or current_page?(pages_splashmanager_path)   -%> 
+
+
+    <% else %>
+
+      <%= render 'layouts/navigation' %>
+      
+    <% end %>
+
+
+
+      <%= yield %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <script>
+      (function() {
+        $(document).on('click', function (e){
+          var collapse1_opened = $('#collapseExample1').hasClass('show');
+        
+          if(!$(e.target).closest('#collapseExample1').length &&
+              !$(e.target).is('#collapseExample1') &&
+              collapse1_opened === true){
+                  $('#collapseExample1').collapse('toggle');
+          }
+
+          var collapse2_opened = $('#collapseExample2').hasClass('show');
+        
+          if(!$(e.target).closest('#collapseExample2').length &&
+              !$(e.target).is('#collapseExample2') &&
+              collapse2_opened === true){
+                  $('#collapseExample2').collapse('toggle');
+          }
+
+          var collapse3_opened = $('#collapseExample3').hasClass('show');
+        
+          if(!$(e.target).closest('#collapseExample3').length &&
+              !$(e.target).is('#collapseExample3') &&
+              collapse3_opened === true){
+                  $('#collapseExample3').collapse('toggle');
+          }
+
+        });
+      })();
+    </script>
+
+
+  </body>
+</html>
