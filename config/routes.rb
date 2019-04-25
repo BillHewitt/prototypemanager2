@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get ':page', to: 'pages#static'
 
   get 'pages/perks'
+  get 'pages/manageteam'
   get 'pages/index'
   get 'pages/hub'
   get 'pages/financial'
@@ -28,6 +29,7 @@ Rails.application.routes.draw do
   get 'pages/dental'
   get 'pages/beer'
   get 'pages/holiday2'
+  get 'pages/recognition2'
   get 'pages/credits50'
   get 'pages/credits100'
   get 'pages/hawaii'
@@ -81,6 +83,7 @@ Rails.application.routes.draw do
   get 'pages/company'
   get 'pages/homeperks'
   get 'pages/hubperks'
+  get 'pages/creditmanager'
   get 'pages/perksperks'
   get 'pages/marketplaceperks'
   get 'pages/financialperks'
@@ -111,7 +114,9 @@ Rails.application.routes.draw do
   get 'pages/johnrew'
   get 'pages/splashemployee'
   get 'pages/signup6'
+  get 'pages/profile2'
   get 'pages/splashmanager'
   get 'pages/holiday3'
+  get 'pages/engagement'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

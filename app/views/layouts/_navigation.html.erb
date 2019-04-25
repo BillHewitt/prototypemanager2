@@ -5,10 +5,14 @@
             <img class="logo" src="/perkbox.png" alt="Leap">
           </a>
           <div class="d-flex align-items-center order-lg-3">
-            
+          
+
+          <li class="nav-item">  
+              <a href="#" class="nav-link nav-link-icon"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </li>
 
             <li class="nav-item">  
-              <a href="#" class="nav-link nav-link-icon"><i class="fa fa-search" aria-hidden="true"></i></a>
+              <a href="/pages/manageteam" class="btn btn-light ml-lg-3">Manage My Team</a>
             </li>
             
             <% if current_page?(pages_credit_path) -%>
@@ -34,7 +38,7 @@
             <div class="dropdown ml-2">
               <img src="/avatar.png" alt="User" class="avatar avatar-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <div class="dropdown-menu dropdown-menu-right dropdown-content">
-                <h6>Joe Bloggs</h6>
+                <h6>Hey, Paul</h6>
 
                 <% if current_page?(pages_profile_path) -%>
                   <a href="/pages/profile" class="dropdown-item active">My Profile</a>

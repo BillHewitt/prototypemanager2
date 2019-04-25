@@ -11,6 +11,15 @@ class PagesController < ApplicationController
   def financial
   end
 
+  def manageteam
+  end
+
+  def engagement
+  end
+
+  def creditmanager
+  end
+
   def learning
   end
 
@@ -33,6 +42,9 @@ class PagesController < ApplicationController
   end
 
   def coffee
+  end
+
+  def profile2
   end
 
   def netflix
