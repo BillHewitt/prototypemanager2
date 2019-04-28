@@ -1,21 +1,22 @@
 <div class="row pt-5 py-5 layer-2">
       <div class="container">
+        <div class="container">
         <div class="row">
           <div class="col-xl-8 col-lg-8">
-              <h1 class="display-5">My Team Name</h1>
-              <p class="lead mb-0">Manage your team and get the best out of your people.</p>
+              <h1 class="display-5 mt-3">My Team Name</h1>
+              <p class="lead mb-3">Manage your team and get the best out of your people.</p>
             </div>
             <div class="col-xl-4 col-lg-4">
 
-              <div class="card card-sm card-body flex-row align-items-center">
+              <div class="card card-sm card-body flex-row align-items-center mt-3">
                   
 
-                  <div class="ml-3">
+                  <div class="">
                     <h5 class="mb-0"><i class="fa fa-diamond" aria-hidden="true"></i> 472 Team Credits</h5>
                     <a href="/pages/creditmanager" class="hover-arrow">Manage Team Credit</a>
                   </div>
                 </div>
-            
+            </div>
 
 
 
@@ -26,56 +27,56 @@
 
 <section class="pt-0">
   <div class="container">
-    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link btn active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Insights</a>
+        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Insights</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link btn" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">People</a>
+        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">People</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link btn" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Sub Teams</a>
+        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Sub Teams</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link btn" id="pills-card-tab" data-toggle="pill" href="#pills-card" role="tab" aria-controls="pills-card" aria-selected="false">Give My Team...</a>
+        <a class="nav-link" id="pills-card-tab" data-toggle="pill" href="#pills-card" role="tab" aria-controls="pills-card" aria-selected="false">Give To Team...</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link btn" id="pills-values-tab" data-toggle="pill" href="#pills-values" role="tab" aria-controls="pills-values" aria-selected="false">Values</a>
+        <a class="nav-link" id="pills-values-tab" data-toggle="pill" href="#pills-values" role="tab" aria-controls="pills-values" aria-selected="false">Values</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link btn" id="pills-settings-tab" data-toggle="pill" href="#pills-settings" role="tab" aria-controls="pills-settings" aria-selected="false">Settings</a>
+        <a class="nav-link" id="pills-settings-tab" data-toggle="pill" href="#pills-settings" role="tab" aria-controls="pills-settings" aria-selected="false">Settings</a>
       </li>
     </ul>
-    <hr>
+    <br>
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
         <div class="row">
           <div class="col col-md-12">
-            <br>
              <%= render 'layouts/filtersinsights' %>
 
              <div class="row">
                <div class="col col-md-6">
-                <a href="/pages/engagement/" class="card shadow border-0">
-                  <div class="card-body py-4">
+                <a href="/pages/engagement/" class="card card-sm card-body flex-row hover-shadow-3d">
+
                   <div class="row">
                       <div class="col-xl-12 col-lg-12">
                         <h2>Engagement Score</h2>
-                        <img src="/insights2.jpg" alt="Volkswagen Australia" class="rounded mb-3 bill">
+                        <div class="justify-content-center">
+                          <img src="/insights2.jpg" alt="Volkswagen Australia" class="rounded mb-3 bill">
+                        </div>
                       </div>
                       </div>
-                  </div>
+
                   </a>
 
                 </div>
 
                 <div class="col col-md-6">
-                  <a href="/pages/recognition2" class="card shadow border-0">
-                      <div class="card-body py-5">
+                  <a href="/pages/recognition2" class="card card-sm card-body flex-row align-items-center hover-shadow-3d">
+
                       <div class="row">
                           <div class="col-xl-12 col-lg-12">
                             <h2>Recognition Stats</h2>
-    
                               <div class="row">
                                 <div class="col-md-3">
                                   <span class="avatar avatar-lg m-1">
@@ -116,8 +117,8 @@
                                   <p>Person Name <span class="badge badge-pill badge-secondary">1 <i class="fa fa-heart"></i></span></p>
                                 </div>
                               </div>
-                          
-                          </div>
+                          <br>
+   
                           </div>
                       </div>
            
@@ -126,8 +127,8 @@
                 </div>
 
                 <div class="col col-md-6">
-                  <a href="#" class="card shadow border-0">
-                  <div class="card-body py-4">
+                  <a href="#" class="card card-body hover-shadow-3d">
+
                   <div class="row">
                       <div class="col-xl-12 col-lg-12">
                         <h2>Interests</h2>
@@ -160,15 +161,13 @@
                             </tbody>
                           </table>
                       </div>
-                      </div>
                   </div>
                   </a>
 
                 </div>
 
                 <div class="col col-md-6">
-                  <a href="#" class="card shadow border-0">
-                  <div class="card-body py-4">
+                  <a href="#" class="card card-body hover-shadow-3d">
                   <div class="row">
                       <div class="col-xl-12 col-lg-12">
                         <h2>Activity</h2>
@@ -196,7 +195,6 @@
                           </table>
                       </div>
                       </div>
-                  </div>
                   </a>
 
                 </div>
@@ -213,7 +211,6 @@
       <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
         <div class="row">
           <div class="col col-md-12">
-            <br>
              <%= render 'layouts/filterspeople' %>
            
               <div class="col-xl-12 col-lg-12">
@@ -248,7 +245,7 @@
                             <td class="small"><span class="badge badge-pill badge-light small">Work-Life Balance</span></td>
                             <td class="small"><i class="fa fa-diamond" aria-hidden="true"></i> 25</td>
                             <td><div class="m-1 dropdown">
-                                <button class="btn btn-primary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button class="btn btn-light dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   <span>Actions</span>
                                   <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M14.4444 8.41358C14.7776 8.2281 15.1875 8.46907 15.1875 8.85048V15.1495C15.1875 15.5309 14.7776 15.7719 14.4444 15.5864L8.78505 12.4369C8.44258 12.2463 8.44258 11.7537 8.78505 11.5631L14.4444 8.41358Z" fill="#212529"></path>
@@ -279,7 +276,7 @@
                             <td class="small">
                               
                               <div class="m-1 dropdown">
-                                <button class="btn btn-primary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button class="btn btn-light dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   <span>Actions</span>
                                   <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M14.4444 8.41358C14.7776 8.2281 15.1875 8.46907 15.1875 8.85048V15.1495C15.1875 15.5309 14.7776 15.7719 14.4444 15.5864L8.78505 12.4369C8.44258 12.2463 8.44258 11.7537 8.78505 11.5631L14.4444 8.41358Z" fill="#212529"></path>
@@ -313,7 +310,7 @@
                             <td class="small">
                               
                               <div class="m-1 dropdown">
-                                <button class="btn btn-primary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button class="btn btn-light dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   <span>Actions</span>
                                   <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M14.4444 8.41358C14.7776 8.2281 15.1875 8.46907 15.1875 8.85048V15.1495C15.1875 15.5309 14.7776 15.7719 14.4444 15.5864L8.78505 12.4369C8.44258 12.2463 8.44258 11.7537 8.78505 11.5631L14.4444 8.41358Z" fill="#212529"></path>
@@ -338,7 +335,7 @@
                                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                               </div> 
                             </td>
-                            <th scope="row"><img src="/avatar.png" alt="User" class="avatar avatar-sm dropdown-toggle"> <a href="#"> Dave Dukes</a></th>
+                            <th scope="row"><img src="/avatar.png" alt="User" class="avatar avatar-sm dropdown-toggle"> <a href="#"> EmJ</a></th>
                             <td class="small">Team Member</td>
                             <td class="small">UK</td>
                             <td class="small">Product, Research, Design</td>
@@ -347,7 +344,7 @@
                             <td class="small">
                               
                               <div class="m-1 dropdown">
-                                <button class="btn btn-primary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button class="btn btn-light dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   <span>Actions</span>
                                   <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M14.4444 8.41358C14.7776 8.2281 15.1875 8.46907 15.1875 8.85048V15.1495C15.1875 15.5309 14.7776 15.7719 14.4444 15.5864L8.78505 12.4369C8.44258 12.2463 8.44258 11.7537 8.78505 11.5631L14.4444 8.41358Z" fill="#212529"></path>
@@ -372,7 +369,7 @@
                                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                               </div> 
                             </td>
-                            <th scope="row"><img src="/avatar.png" alt="User" class="avatar avatar-sm dropdown-toggle"> <a href="#"> Elsa Broc</a></th>
+                            <th scope="row"><img src="/avatar.png" alt="User" class="avatar avatar-sm dropdown-toggle"> <a href="#"> Hannah Broc</a></th>
                             <td class="small">Team Member</td>
                             <td class="small">UK</td>
                             <td class="small">Product, Research, Design</td>
@@ -381,7 +378,41 @@
                             <td class="small">
                               
                               <div class="m-1 dropdown">
-                                <button class="btn btn-primary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button class="btn btn-light dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <span>Actions</span>
+                                  <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.4444 8.41358C14.7776 8.2281 15.1875 8.46907 15.1875 8.85048V15.1495C15.1875 15.5309 14.7776 15.7719 14.4444 15.5864L8.78505 12.4369C8.44258 12.2463 8.44258 11.7537 8.78505 11.5631L14.4444 8.41358Z" fill="#212529"></path>
+                                  </svg>
+
+                                </button>
+                                <div class="dropdown-menu dropdown-content dropdown-content-sm" aria-labelledby="dropdownMenuButton" x-placement="top-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, -2px, 0px);">
+                                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#sign-in-modal2">Recognise</a>
+                                  <a class="dropdown-item" href="#">Incentivise</a>
+                                  <a class="dropdown-item" href="#">Gift</a>
+                                </div>
+                              </div>
+
+
+
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                              </div> 
+                            </td>
+                            <th scope="row"><img src="/avatar.png" alt="User" class="avatar avatar-sm dropdown-toggle"> <a href="#"> Sam Smithe</a></th>
+                            <td class="small">Team Member</td>
+                            <td class="small">UK</td>
+                            <td class="small">Product, Research, Design</td>
+                            <td class="small"><span class="badge badge-pill badge-light small">Communication</span></td>
+                            <td class="small"><i class="fa fa-diamond" aria-hidden="true"></i> 25</td>
+                            <td class="small">
+                              
+                              <div class="m-1 dropdown">
+                                <button class="btn btn-light dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   <span>Actions</span>
                                   <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M14.4444 8.41358C14.7776 8.2281 15.1875 8.46907 15.1875 8.85048V15.1495C15.1875 15.5309 14.7776 15.7719 14.4444 15.5864L8.78505 12.4369C8.44258 12.2463 8.44258 11.7537 8.78505 11.5631L14.4444 8.41358Z" fill="#212529"></path>
@@ -412,7 +443,6 @@
       <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
         <div class="row">
           <div class="col col-md-12">
-            <br>
              <div class="row tiny">
   <div class="col col-md-9">
     
@@ -432,7 +462,6 @@
       <div class="tab-pane fade" id="pills-card" role="tabpanel" aria-labelledby="pills-card-tab">
         <div class="row">
           <div class="col col-md-12">
-            <br>
              <div class="row tiny">
   <div class="col col-md-9">
     
@@ -440,7 +469,7 @@
   </div>
   <div class="col-lg-3">
     <div class="m-1 dropdown">
-                                <button class="btn btn-primary dropdown-toggle float-right" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button class="btn btn-primary dropdown-toggle mb-3 float-right" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   <span>Give Team...</span>
                                   <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M14.4444 8.41358C14.7776 8.2281 15.1875 8.46907 15.1875 8.85048V15.1495C15.1875 15.5309 14.7776 15.7719 14.4444 15.5864L8.78505 12.4369C8.44258 12.2463 8.44258 11.7537 8.78505 11.5631L14.4444 8.41358Z" fill="#212529"></path>
@@ -448,7 +477,7 @@
 
                                 </button>
                                 <div class="dropdown-menu dropdown-content dropdown-content-sm" aria-labelledby="dropdownMenuButton" x-placement="top-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, -2px, 0px);">
-                                  <a class="dropdown-item" href="#">Reward</a>
+                                  <a class="dropdown-item" href="#">Recognition</a>
                                   <a class="dropdown-item" href="#">Gift</a>
                                   <a class="dropdown-item" href="#">Incentive</a>
                                 </div>
@@ -498,7 +527,6 @@
        <div class="tab-pane fade" id="pills-values" role="tabpanel" aria-labelledby="pills-values-tab">
          <div class="row">
           <div class="col col-md-12">
-            <br>
              <div class="row tiny">
   <div class="col col-md-9">
     
@@ -512,7 +540,6 @@
 </div>
 
               <div class="col-xl-6 col-lg-8">
-                  <h2>Values</h2>
                   <p>This is where you can setup your team values. The things that make you unique. These will come in handy when you're looking to reward, recognise and celebrate as a team together.</p>
               </div>
             </div>
@@ -523,10 +550,8 @@
        <div class="tab-pane fade" id="pills-settings" role="tabpanel" aria-labelledby="pills-settings-tab">
          <div class="row">
           <div class="col col-md-12">
-            <br>
 
               <div class="col-xl-6 col-lg-8">
-                  <h2>Settings</h2>
                   <p>This is where any necessary team settings can go. Logos, colours, setting up Insights surveys etc...</p>
               </div>
 
@@ -540,7 +565,9 @@
   </div>
 </section>
 
-<div class="modal fade" id="sign-in-modal" tabindex="-1" role="dialog" aria-hidden="true">
+
+
+              <div class="modal fade" id="sign-in-modal2" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-body">
@@ -556,7 +583,7 @@
                           <div class="content-container">
                             <div id="content1">
                                 <p class="text-muted text-small">Step 1 of 3</p>
-                                <h4 class="h3 mb-2">Recognise Adam</h4>
+                                <h4 class="h3 mb-2">Recognise Hannah</h4>
                                 <form>
                                   <div class="form-group">
                                     <label for="exampleFormControlTextarea1">What for?</label>

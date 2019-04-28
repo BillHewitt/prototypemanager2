@@ -1,5 +1,5 @@
 <div class="navbar-container ">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary-3">
+      <nav class="navbar navbar-expand-lg bg-primary-3 navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand fade-page" href="/pages/home">
             <img class="logo" src="/perkbox.png" alt="Leap">
@@ -25,10 +25,7 @@
               </li>
             <% end %>
 
-            <li class="nav-item">  
-              <a href="/pages/notifications" class="nav-link nav-link-icon"><i class="fa fa-bell" aria-hidden="true"></i></a>
-            </li>
-            
+      
         
 
 
@@ -76,6 +73,9 @@
 
               </button>
             </div>
+             <li class="nav-item">  
+              <a href="/pages/notifications" class="nav-link nav-link-icon"><i class="fa fa-bell" aria-hidden="true"></i></a>
+            </li>
           </div>
           <div class="collapse navbar-collapse justify-content-between order-lg-2">
             <div class="py-2 py-lg-0">
@@ -83,24 +83,24 @@
 
                 <% if current_page?(pages_hub_path) -%>
                   
-                  <li class="nav-item ml-1"><a href="/pages/hub" class="nav-link active">Spotify Hub</a>
+                  <li class="nav-item ml-1"><a href="/pages/hub" class="nav-link active">Company Hub</a>
                   </li>
 
                 <% else %>
 
-                  <li class="nav-item ml-1"><a href="/pages/hub" class="nav-link">Spotify Hub</a>
+                  <li class="nav-item ml-1"><a href="/pages/hub" class="nav-link">Company Hub</a>
                   </li>
 
                 <% end %>
 
                 <% if current_page?(pages_perks_path) or current_page?(pages_perks2_path) or current_page?(pages_holiday2_path) or current_page?(pages_medical_path) or current_page?(pages_dental_path) or current_page?(pages_beer_path) or current_page?(pages_asos_path) or current_page?(pages_yoga_path) or current_page?(pages_peer_path) or current_page?(pages_head_path) or current_page?(pages_netflix_path)  or current_page?(pages_debt_path) or current_page?(pages_eap_path) or current_page?(pages_mental_path) or current_page?(pages_councelling_path) or current_page?(pages_holiday3_path) -%>
                   
-                  <li class="nav-item ml-1"><a href="/pages/perks" class="nav-link active">Spotify Gifted</a>
+                  <li class="nav-item ml-1"><a href="/pages/perks" class="nav-link active">Company Gifted</a>
                   </li>
 
                 <% else %>
 
-                  <li class="nav-item ml-1"><a href="/pages/perks" class="nav-link">Spotify Gifted</a>
+                  <li class="nav-item ml-1"><a href="/pages/perks" class="nav-link">Company Gifted</a>
                   </li>
 
                 <% end %>
@@ -108,9 +108,9 @@
                 <li class="nav-item dropdown">
 
                   <% if current_page?(pages_financial_path) or current_page?(pages_learning_path) or current_page?(pages_perkbox_path) or current_page?(pages_premium_path) or current_page?(pages_nike_path) or current_page?(pages_virgin_path) or current_page?(pages_john_path) or current_page?(pages_youtube_path) or current_page?(pages_spotify_path) or current_page?(pages_asos2_path) or current_page?(pages_netflix2_path) or current_page?(pages_tesco_path) or current_page?(pages_franco_path) or current_page?(pages_bill_path) or current_page?(pages_apple_path) or current_page?(pages_adidas_path) or current_page?(pages_marketplace_path) or current_page?(pages_company_path) or current_page?(pages_lynda_path) or current_page?(pages_skillshare_path) or current_page?(pages_udemy_path) or current_page?(pages_audible_path) or current_page?(pages_critical_path) or current_page?(pages_amazon_path) or current_page?(pages_physio_path) or current_page?(pages_healthcashplan_path) or current_page?(pages_medinsurance_path) or current_page?(pages_financialadvice_path) or current_page?(pages_healthinsurance_path) or current_page?(pages_healthinsurance_path)  -%>
-                    <a href="/pages/perkbox" class="nav-link active dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Explore The Collections</a>
+                    <a href="/pages/perkbox" class="nav-link active dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Explore Collections</a>
                   <% else %>
-                    <a href="/pages/perkbox" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Explore The Collections</a>
+                    <a href="/pages/perkbox" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Explore Collections</a>
                   <% end %>
 
                   <div class="dropdown-menu row">
@@ -119,7 +119,7 @@
                         <div class="list-group list-group-flush">
                           <a href="/pages/company" class="list-group-item list-group-item-action d-flex align-items-center p-3">
                             <div class="text-body ml-3">
-                              <span><h5>Spotify Extras</h5></span>
+                              <span><h5>Company Extras</h5></span>
                               <div class="text-small text-muted">We've curated some bespoke company extras that you're able to purchase with your credit.</div>
                             </div>
                           </a>
@@ -138,7 +138,7 @@
                           <a href="/pages/premium" class="list-group-item list-group-item-action d-flex align-items-center p-3">
                             <div class="text-body ml-3">
                               <span><h5>Health & Support</h5></span>
-                              <div class="text-small text-muted">Your health and wellbeing should be you number one. Get support in all the areas that matter most.</div>
+                              <div class="text-small text-muted">Your health and wellbeing should be your number one. Get support in all the areas that matter most.</div>
                             </div>
                           </a>
                         </div>
@@ -154,4 +154,4 @@
           </div>
         </div>
       </nav>
-    </div>
+  

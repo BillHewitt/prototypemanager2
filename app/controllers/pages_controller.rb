@@ -29,7 +29,13 @@ class PagesController < ApplicationController
   def profile
   end
 
+  def premium2
+  end
+
   def recognition
+  end
+
+  def busu
   end
 
   def redeemed
